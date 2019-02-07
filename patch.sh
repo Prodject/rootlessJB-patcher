@@ -22,6 +22,6 @@ echo 'scp -r patched/Library/* root@192.168.2.133:/var/containers/Bundle/tweaksu
 echo
 echo "Now SSH into your iOS device and run the following command:"
 echo 'chown mobile:staff /var/containers/Bundle/tweaksupport/Library/MobileSubstrate/DynamicLibraries/*.dylib && \'
-echo 'chmod 777 /var/containers/Bundle/tweaksupport/Library/MobileSubstrate/DynamicLibraries/*.dylib && \'
+echo 'chmod 777 /var/containers/Bundle/tweaksupport/Library/MobileSubstrate/DynamicLibraries/*.dylib'
 echo
 echo "Then reboot and rejailbreak your device!"
