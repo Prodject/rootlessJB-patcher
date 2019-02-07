@@ -18,7 +18,8 @@ find patched -iname *.dylib -exec ./lib/ldid2 -S {} \;
 
 echo
 echo 'Now copy the patched version to your iOS device by running the following command (you need to fill in the actual IP address of your device):'
-echo 'scp -r patched/Library/* root@192.168.2.133:/var/containers/Bundle/tweaksupport/Library/'
+echo 'scp -r patched/Library/* root@<YOUR iOS IP ADDRESS>:/var/containers/Bundle/tweaksupport/Library/'
+echo "(Please verify you are using a version of rootlessJB with a working copy of scp!)"
 echo
 echo "Now SSH into your iOS device and run the following command:"
 echo 'chown mobile:staff /var/containers/Bundle/tweaksupport/Library/MobileSubstrate/DynamicLibraries/*.dylib && \'
