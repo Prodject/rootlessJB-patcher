@@ -15,3 +15,7 @@ Software provided in this repo was tested on macOS only.
 Thanks to:
 - Jake James for providing [rootlessJB](https://github.com/jakeajames/rootlessJB3) and patcher script
 - xerub for providing [ldid2](https://github.com/xerub/ldid) signing tool based on work by saurik
+
+### Concluding notice
+I created this project for myself because patching, signing and installing tweaks manually got really annoying when testing multiple tweaks.
+So I thought I'd release it so it will facilitate the process for more people :)
